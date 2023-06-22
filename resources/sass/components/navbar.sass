@@ -1,0 +1,23 @@
+.navbar
+    background: #bdbdbd
+    padding: 3px 0
+    background: #dfdfdf
+    border-top: 1px solid #c3c3c3
+    border-bottom: 1px solid #c3c3c3
+    &-nav
+        display: flex
+        gap: 3px
+        position: relative
+        left: -10px
+        .nav-item
+            a
+                padding: 10px
+                display: block
+                transition: $transition
+                color: #000
+                border-radius: 3px
+                &.router-link-active
+                    background: #ababab!important
+                    color: #fff
+                &:hover
+                    background: #cbcbcb
